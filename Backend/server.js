@@ -12,7 +12,7 @@ const menteeRoutes = require("./routes/menteeRoutes");
 const app = express();
 
 const corsOptions = {
-    origin: ["https://mentormenteemangement.onrender.com", "http://localhost:5173"], // Allow these origins
+    origin: ["https://mentormenteemangement-1.onrender.com", "http://localhost:5173"], // Allow these origins
     credentials: true, // Allow cookies to be sent with requests
     allowedHeaders: ["Content-Type", "Authorization"], // Allow these headers
   };
